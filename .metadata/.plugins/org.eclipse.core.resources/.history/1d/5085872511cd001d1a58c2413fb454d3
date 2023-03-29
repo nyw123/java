@@ -1,0 +1,12 @@
+package ch07.sec05.exam01;
+
+public class Car {
+Tire frontRTire = new Tire();
+Tire frontLTire = new Tire();
+Tire rearRTire = new Tire();
+Tire rearLTire = new Tire();
+}
+
+class Tire{}
+class kTire extends Tire{}
+class hTire extends Tire{}

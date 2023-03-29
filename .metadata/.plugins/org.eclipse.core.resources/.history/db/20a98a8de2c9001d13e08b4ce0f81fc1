@@ -1,0 +1,18 @@
+package ch06.sec03;
+
+public class PseronMain {
+    public static void main(String[] args) {
+        Person p1 = new Person();
+        p1.name = "홍길동";
+        p1.age = 18;
+
+        Person p2 = new Person();
+        p2.name = "일지매";
+        p2.age = 20;
+
+        Person p3 = new Person();
+        p3.name = "임꺽정";
+        p3.age = 20;
+
+    }
+}

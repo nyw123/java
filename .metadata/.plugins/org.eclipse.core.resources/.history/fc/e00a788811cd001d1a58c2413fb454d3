@@ -1,0 +1,23 @@
+package ch07.sec05.exam01;
+
+public class Car {
+Tire frontRTire = new kTire();
+Tire frontLTire = new Tire();
+Tire rearRTire = new hTire();
+Tire rearLTire = new Tire();
+}
+
+class Tire{void roll(){System.out.println("규격타이어");}}
+class kTire extends Tire{
+	@Override
+	void roll() {
+		System.out.println("금호타이어");
+	}
+}
+class hTire extends Tire{
+
+	@Override
+	void roll() {
+		System.out.println("한국타이어");
+	}
+	}

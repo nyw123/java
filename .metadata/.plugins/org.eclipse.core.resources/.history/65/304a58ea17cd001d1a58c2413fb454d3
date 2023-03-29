@@ -1,0 +1,27 @@
+package ch07.sec06.package1;
+
+public class A2 {
+	public static void main(String[] args) {
+		A2 a = new B2();
+		System.out.println(a instanceof A2);
+		System.out.println(a instanceof B2);
+		System.out.println(a instanceof C2);
+		System.out.println(a instanceof D2);
+		
+		B2 b = (B2)a;
+		
+		//A2 a1 = b;
+		//C2 c = (C2)a1;
+		if (a1 instanceof C2) {
+			C2 c=(C2)a1;
+		}else {
+			System.out.println("형변환불가");
+		}
+		
+	}
+}
+
+class B2 extends A2{}
+class C2 extends A2{}
+class D2 extends B2{}
+class E2 extends C2{}

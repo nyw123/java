@@ -1,0 +1,9 @@
+package pack2;
+
+public class B {
+
+	public class method() {
+		System.out.println("A메소드실행");
+	}
+
+}

@@ -1,0 +1,15 @@
+package ch01;
+
+public class Car {
+    String color;
+    int speed;
+
+    void run() {
+    }
+
+    void stop() {
+    }
+}
+
+class Tire {
+}

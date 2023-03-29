@@ -1,0 +1,10 @@
+package ch07.sec06.package1;
+
+public class A2 {
+
+}
+
+class B2 extends A2{}
+class C2 extends A2{}
+class D2 extends B2{}
+class E2 extends C2{}

@@ -1,0 +1,12 @@
+package ch08.sec02;
+
+public interface InterA {
+	int field1 = 10;
+	void m1();
+	default void m2() {System.out.println("인터페이스의 디폴트 메소드");}
+	static void m3() {System.out.println("인터페이스의 스태틱 메소드");}
+}
+
+class A{
+	int a;
+}

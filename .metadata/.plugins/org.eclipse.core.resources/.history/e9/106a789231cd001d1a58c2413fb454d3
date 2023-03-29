@@ -1,0 +1,8 @@
+package ch07.sec10.exam02;
+
+public abstract class A {
+	int a;
+	
+	void m1() {System.out.println("실체메소드");}
+	abstract void m2();
+}

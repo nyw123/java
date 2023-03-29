@@ -1,0 +1,27 @@
+package ch01;
+
+public class Person {
+    // public static void main(String[] args) {
+    // System.out.println("asd");
+    // }
+    String name;
+    int age;
+    Calculator cal;
+
+    void smile() {
+    }
+
+    void eat() {
+    }
+
+    void getPlus() {
+        System.out.print(cal.plus(1, 2));
+    }
+
+    void getMinus() {
+        System.out.print(cal.minus(1, 2));
+    }
+}
+
+class Tire {
+}
