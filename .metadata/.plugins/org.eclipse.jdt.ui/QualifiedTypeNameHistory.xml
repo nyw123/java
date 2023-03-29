@@ -5,4 +5,8 @@
     <fullyQualifiedTypeName name="ch07.sec08.exam02.Vehicle"/>
     <fullyQualifiedTypeName name="ch07.sec05.exam02.Vehicle"/>
     <fullyQualifiedTypeName name="pack4.D"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>
