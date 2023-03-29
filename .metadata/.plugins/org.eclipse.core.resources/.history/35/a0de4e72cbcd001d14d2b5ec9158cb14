@@ -1,9 +1,0 @@
-package pack2;
-
-public class B {
-
-	public class method() {
-		System.out.println("B메소드실행");
-	}
-
-}
