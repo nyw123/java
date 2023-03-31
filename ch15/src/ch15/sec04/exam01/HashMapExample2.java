@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class HashMapExample2 {
     public static void main(String[] args) {
+        boolean run = true;
         Map<String, Double> info = new HashMap<>();
         info.put("서울", 19.0);
         info.put("베이징", 17.5);
@@ -20,9 +21,14 @@ public class HashMapExample2 {
         dictions.put("peanut", "땅콩");
         dictions.put("squid", "오징어");
         System.out.println("키 입력 : ");
-        Scanner scanner = new Scanner(System.in);
-        String key = scanner.nextLine();
-        System.out.println(dictions.containsKey(key));
-
+        while (run) {
+            Scanner scanner = new Scanner(System.in);
+            String key = scanner.nextLine();
+            System.out.println(dictions.containsKey(key) ? dictions.get(key) : "해당단어가 없습니다.");
+            System.out.println("계속할까요? y or n");
+            String ys = scanner.nextLine();
+            if (ys.equals("n"))
+                run = !run;
+        }
     }
 }
