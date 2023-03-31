@@ -22,6 +22,17 @@ public class HashSetExample {
 		while (iterator.hasNext()) {
 			String element = iterator.next();
 			System.out.println(element);
+			if (element.equals("Java"))
+				iterator.remove();
 		}
+		System.out.println();
+		for (String e : set)
+			System.out.println(e);
+
+		System.out.println(set.contains("JDBC"));
+
+		set.clear();
+
+		System.out.println(set.isEmpty());
 	}
 }
